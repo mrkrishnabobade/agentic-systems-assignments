@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, EmailStr, Field, field_validator
 
 class Address(BaseModel):
     city: str = Field(min_length=3)
@@ -7,15 +7,24 @@ class Address(BaseModel):
 class User(BaseModel):
     user_id: int
     name: str
-    email: EmailStr
+    email: EmailStr 
     age: int = Field(ge=18)
     address: Address
     is_premium: bool= False
 
+    @field_validator('email')
+    @classmethod
+    def email_validator(cls,value):
+        domain_name= value.split('@')[-1]
+
+        if domain_name != "masai.com":
+            raise ValueError("not a valid domain for email")
+        return value
+
 user_data = {
     "user_id": 101,
     "name": "Krishna",
-    "email": "krishna@gmail.com",
+    "email": "krishna@masai.com",
     "age": 22,
     "address": {
         "city": "Pune",
@@ -26,4 +35,4 @@ user_data = {
 user = User(**user_data)
 
 print("User registered successfully")
-print(user)
+print(user)  
