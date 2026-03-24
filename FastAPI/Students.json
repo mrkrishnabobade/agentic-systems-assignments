@@ -1,0 +1,26 @@
+{
+    "ST001" : {
+        "name" : "Krishna",
+        "age" : 22,
+        "city" : "Nagpur",
+        "Problems_solved" : 34
+    },
+    "ST002" : {
+        "name" : "Aastha",
+        "age" : 25,
+        "city" : "chinwada",
+        "Problems_solved" : 54
+    },
+    "ST003" : {
+        "name" : "Pranjal",
+        "age" : 23,
+        "city" : "Bhilai",
+        "Problems_solved" : 24
+    },
+    "ST004" : {
+        "name" : "Sahil",
+        "age" : 22,
+        "city" : "Chandrapur",
+        "Problems_solved" : 44
+    }
+}
