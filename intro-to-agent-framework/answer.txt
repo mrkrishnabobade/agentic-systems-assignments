@@ -1,0 +1,39 @@
+Agentic AI frameworks:-
+Agentic AI frameworks are tools that help developers build intelligent systems capable of reasoning, decision-making, and autonomous actions. These systems often involve multiple components like memory, tools, workflows, and communication. Without frameworks, managing these elements manually becomes complex, time-consuming, and error-prone. Frameworks provide abstraction, modularity, scalability, and faster development.
+
+Categories of Agentic AI Frameworks
+1) Orchestration-Based Frameworks:-
+These focus on chaining prompts, tools, and models in a sequence.
+Example: LangChain
+2) Workflow / Graph-Based Frameworks:-
+These manage stateful, multi-step processes using structured flows.
+Example: LangGraph
+3) Multi-Agent Collaboration Frameworks:-
+These enable multiple AI agents to communicate and solve tasks together.
+Examples: CrewAI, AutoGen
+4) Enterprise / Platform-Based Frameworks:-
+Designed for scalable, production-grade systems.
+Example: Google ADK
+5) Frontend / Integration Frameworks:-
+Focus on integrating AI into applications and UI.
+Example: Vercel AI SDK
+6) No-Code / Automation Frameworks:-
+Enable building workflows without heavy coding.
+Example: n8n
+
+Key Characteristics of Each Framework
+1) LangChain: Modular, easy to use, best for prompt chaining and tool integration.
+2) LangGraph: Supports complex, stateful workflows using graph structures.
+3) CrewAI: Role-based agents collaborating like a team.
+4) AutoGen: Agents communicate through conversations to solve tasks.
+5) Google ADK: Enterprise-ready, scalable, and secure agent development.
+6) Vercel AI SDK: Optimized for frontend apps and real-time AI responses.
+7) n8n: Visual workflow automation with minimal coding effort.
+
+How to Select the Right Framework
+1) Use LangChain for simple pipelines and quick prototyping.
+2) Use LangGraph for complex, multi-step workflows with state.
+3) Use CrewAI / AutoGen when multiple agents need collaboration.
+4) Use Google ADK for enterprise-scale and production systems.
+5) Use Vercel AI SDK for building AI-powered web interfaces.
+6) Use n8n for automation tasks without deep programming.
